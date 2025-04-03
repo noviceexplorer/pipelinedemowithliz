@@ -1,10 +1,10 @@
 steps:
-  - label: ":hammer: hello" #We are running the command script (or running script) with the label (human readable) hammer
+  - label: ":hammer: hello" 
     command: script.sh
   - wait: ~
   - label: "Example Test"
-    command: echo "Hello!" #printing hello in the log
-  - block: ":rocket: Are we ready?" #blocks to get user input
+    command: echo "Hello!" 
+  - block: ":rocket: Are we ready?"
   - input: "Who is running this script?" 
     fields:
       - text: "Your name"

@@ -1,1 +1,1 @@
-echo "Liz is a greatest teacher"
+echo "Liz is a greatest teacher!"

@@ -1,6 +1,6 @@
 steps:
   - label: ":hammer: hello" #We are running the command script (or running script) with the label (human readable) hammer
-    command: "script.sh"
+    command: script.sh
   - wait: ~
   - label: "Example Test"
     command: echo "Hello!" #printing hello in the log

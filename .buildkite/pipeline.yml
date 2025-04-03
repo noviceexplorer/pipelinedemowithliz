@@ -1,13 +1,3 @@
 steps:
-  - label: ":hammer: hello" 
-    command: "script.sh"
-  - wait: ~
   - label: "Example Test"
     command: echo "Hello!" 
-  - block: ":rocket: Are we ready?"
-  - input: "Who is running this script?" 
-    fields:
-      - text: "Your name"
-        key: "name"
-  - label: "Run script"
-    command: "name_script.sh"

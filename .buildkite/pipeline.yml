@@ -1,6 +1,6 @@
 steps:
   - label: ":hammer: hello" 
-    command: script.sh
+    command: "script.sh"
   - wait: ~
   - label: "Example Test"
     command: echo "Hello!" 
@@ -10,4 +10,4 @@ steps:
       - text: "Your name"
         key: "name"
   - label: "Run script"
-    command: name_script.sh
+    command: "name_script.sh"
